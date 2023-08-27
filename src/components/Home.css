@@ -1,0 +1,157 @@
+header {
+  background-image: url('../images/image\ 2.png');
+  /* height: 100vh; */
+  position: relative;
+  height: 100vh;
+}
+
+.body {
+  /* background-color: #706b88; */
+  position: relative;
+}
+
+.contact {
+  /* background-color: #706b88; */
+  position: absolute;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-header img {
+  position: relative;
+  width: 3vw;
+  height: 4vw;
+  left: 5%;
+  top: 2.7vmax;
+}
+
+.home-header nav {
+  position: relative;
+  /* width: 680px; */
+  /* height: 28px; */
+  top: 3vmax;
+  right: 5%;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 18px;
+
+  /* text-align: right; */
+  /* letter-spacing: 0.1em; */
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.home-header nav i {
+  display: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.sidebar {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  display: block;
+  height: 100%;
+  width: 250px;
+  background-color: #3d5d72;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+  border-radius:0px 20px 0 0;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+.sidebar-nav {
+  margin: 2rem;
+  margin-top: 0.8rem;
+}
+
+.sidebar-nav a {
+  /* margin: 1rem; */
+  display: block;
+  padding: 1rem;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ece9e9;
+  text-decoration: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+#menu-bars.active {
+  display: block;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: #eae4e4;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .home-header nav li {
+    display: none;
+  }
+  .home-header nav i {
+    display: initial;
+  }
+
+  .sidebar {
+    display: relative;
+  }
+}
+.header-body {
+  position: absolute;
+
+  left: 4%;
+  right: 4%;
+  top: 45%;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 3vw;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.header-body p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  /* text-align: center; */
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.line-1 {
+  position: relative;
+}

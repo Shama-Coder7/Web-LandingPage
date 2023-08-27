@@ -1,0 +1,162 @@
+.process-main {
+  position: absolute;
+  /* background-color: #706b88; */
+  height: 120vh;
+  /* width: 100%; */
+  left: 8%;
+}
+#process {
+  position: relative;
+  width: 7vw;
+  height: 2vw;
+  /* left: 8%; */
+  top: 3%;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  /* line-height: 22px; */
+
+  text-transform: uppercase;
+
+  color: #8dc640;
+}
+
+#works {
+  position: relative;
+  /* width: 100px;
+height: 57px; */
+  /* left: 8%; */
+  top: 2%;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 250;
+  font-size: 35px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+#steps {
+  position: relative;
+
+  /* left: 8%; */
+  top: 1%;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #7c7c7c;
+}
+
+/* .process-images {
+  left: 8%;
+
+} */
+
+.row-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -100px;
+  margin-left: -51px;
+}
+
+.row-images .image-1,
+.row-images .image-2,
+.row-images .image-3,
+.row-images .image-4,
+.row-images .image-5,
+.row-images .image-6 {
+  position: relative;
+  width: 350px;
+  color: #ffffff;
+  margin: 3vw;
+}
+
+/* .row-images .image-2,
+.row-images .image-3,
+.row-images .image-5,
+.row-images .image-6 {
+  margin: 3vw;
+} */
+.image-1 {
+  background: url('../images/image\ 10.png');
+
+  /* identical to box height, or 107% */
+}
+
+.image-text {
+  padding-left: 10px;
+  padding-top: 90%;
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  /* line-height: 32px; */
+}
+
+.image-text h5 {
+  font-weight: 600;
+}
+
+.image-2 {
+  background: url('../images/image\ 11.png');
+}
+
+.image-3 {
+  background: url('../images/image\ 13.png');
+}
+
+.image-4 {
+  background: url('../images/image\ 14.png');
+}
+
+.image-5 {
+  background: url('../images/image\ 15.png');
+}
+
+.image-6 {
+  background: url('../images/image\ 10.png');
+}
+
+@media (max-width: 600px) {
+  #process {
+    font-size: 20px;
+  }
+  #works {
+    top: 5%;
+    font-size: 20px;
+  }
+  #steps {
+    top: 4%;
+    font-size: 13px;
+  }
+  .row-images {
+    position: relative;
+  }
+  .row-images .image-1,
+  .row-images .image-4,  .row-images .image-5,
+  .row-images .image-6{
+    /* width: 320px; */
+    margin-left: 52px;
+  
+  }
+
+  .row-images .image-2,
+  .row-images .image-3 {
+    margin-top: 10px;
+    /* margin-left: -0.7vw; */
+    margin-left: 52px;
+  }
+
+  .row-images .image-4 {
+    margin-top: 80px;
+  }
+}
